@@ -1,0 +1,15 @@
+{
+  "name": "eslint-plugin-max-variables",
+  "version": "1.0.0",
+  "description": "Custom ESLint plugin for variable declarations",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./max-variables.test.js"
+  },
+  "keywords": [],
+  "author": "Vera Lobacheva",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.0.0"
+  }
+}
