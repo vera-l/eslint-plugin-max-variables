@@ -2,7 +2,7 @@ module.exports = {
   meta: {
     type: "problem",
     docs: {
-      description: "Disallow using too many variables",
+      description: "Ограничение по количеству переменных",
     },
     schema: [
       {
@@ -13,7 +13,7 @@ module.exports = {
     ],
     messages: {
       tooManyVariables:
-        'This code contains "{{ number }}" variables against the allowed "{{ max }}"',
+        'Этот код содержит "{{ number }}" переменных вместо разрешенных "{{ max }}"',
     },
   },
   create(context) {
